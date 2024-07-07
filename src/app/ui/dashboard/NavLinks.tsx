@@ -1,9 +1,6 @@
-// Use when client needs JS
-"use client";
-
 import Link from "next/link";
 
-const links = [
+const linksData = [
   { name: "Dashboard", href: "/dashboard" },
   { name: "Videos", href: "/videos" },
 ];
@@ -11,10 +8,10 @@ const links = [
 export default function NavLinks() {
   return (
     <>
-      {links.map((link) => {
+      {linksData.map((linkItem) => {
         return (
-          <Link href={link.href} key={link.name}>
-            <p>{link.name}</p>
+          <Link href={linkItem.href} key={linkItem.name}>
+            <p>{linkItem.name}</p>
           </Link>
         );
       })}

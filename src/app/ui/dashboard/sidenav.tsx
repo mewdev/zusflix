@@ -1,5 +1,5 @@
-import ZusflixLogo from "@/app/ui/zusflix-logo";
-import NavLinks from "@/app/ui/dashboard/nav-links";
+import ZusflixLogo from "@/app/ui/ZusflixLogo";
+import NavLinks from "@/app/ui/dashboard/NavLinks";
 
 export default function SideNav() {
   return (
