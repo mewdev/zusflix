@@ -1,5 +1,5 @@
-import SideNav from "@/app/ui/dashboard/sidenav";
-import SearchBar from "@/app/ui/search-bar";
+import SideNav from "@/app/ui/dashboard/SideNav";
+import SearchBar from "@/app/ui/SearchBar";
 
 export default function Page() {
   return (
