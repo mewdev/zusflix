@@ -1,11 +1,15 @@
 import SideNav from "@/app/ui/dashboard/sidenav";
+import SearchBar from "@/app/ui/search-bar";
 
 export default function Page() {
   return (
     <>
       <SideNav />
-      <div className="h-screen bg-blue-100">Videos Content</div>
-      <div className="h-screen bg-red-100">Videos Content</div>
+      <SearchBar />
+      <div className="lg:ml-28">
+        <div className=" bg-blue-100 h-screen">Video Content</div>
+        <div className=" bg-red-100 h-screen">Video Content</div>
+      </div>
     </>
   );
 }

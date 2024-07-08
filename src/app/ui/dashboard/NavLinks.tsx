@@ -1,11 +1,8 @@
-// Use when client needs JS
-"use client";
-
 import { LayoutGrid, Clapperboard, Settings } from "lucide-react";
 
 import Link from "next/link";
 
-const links = [
+const linksData: { name: string; href: string; icon: any }[] = [
   {
     name: "Dashboard",
     href: "/dashboard",
@@ -25,8 +22,8 @@ const links = [
 
 export default function NavLinks() {
   return (
-    <div className="flex flex-col gap-10">
-      {links.map((link) => {
+    <div className="flex lg:flex-col gap-10">
+      {linksData.map((link) => {
         return (
           <Link href={link.href} key={link.name}>
             <div className=" hover:text-blue-500">{link.icon}</div>

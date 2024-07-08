@@ -3,7 +3,7 @@ import { Search } from "lucide-react";
 export default function SearchBar() {
   return (
     <>
-      <div className="bg-red-400 flex justify-center sticky top-0 z-10 h-10 items-center p-10">
+      <div className="bg-blue-400 flex justify-center sticky top-0 z-10 h-10 items-center p-10">
         <form className="flex">
           <Search />
           <input
@@ -11,7 +11,7 @@ export default function SearchBar() {
             placeholder="Search for movie"
             className="bg-red-100"
           />
-          <button className="bg-red-900 text-white">Search</button>
+          <button className="bg-blue-900 text-white">Search</button>
         </form>
       </div>
     </>
