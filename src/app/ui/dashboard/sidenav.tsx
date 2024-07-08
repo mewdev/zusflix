@@ -3,9 +3,10 @@ import NavLinks from "@/app/ui/dashboard/nav-links";
 
 export default function SideNav() {
   return (
-    <div className="bg-gray-300 flex gap-2 items-center p-5">
+    <nav className="bg-gray-300 w-25 z-20 h-5/6 flex flex-col gap-2 justify-between items-center p-5 lg:fixed top-0">
       <ZusflixLogo />
       <NavLinks />
-    </div>
+      <p>Account</p>
+    </nav>
   );
 }
