@@ -8,8 +8,8 @@ export default function Page() {
       <SideNav />
       <SearchBar />
       <Container>
-        <div className=" bg-blue-100 h-screen">Dashboard Content</div>
-        <div className=" bg-red-100 h-screen">Dashboard Content</div>
+        <div className=" bg-blue-100 h-screen">Settings Content</div>
+        <div className=" bg-red-100 h-screen">Settings Content</div>
       </Container>
     </>
   );
